@@ -10,7 +10,7 @@ how to installation
 Detection.hello();
 >>>hello!!
 
-啟用　檢測鍵盤腳本
+啟用　檢測鍵盤腳本　(限定"上下左右"　基本移動按鍵)
 <body onload="Detection.start_key()">
 檢測訊息在"F12"中..
 
