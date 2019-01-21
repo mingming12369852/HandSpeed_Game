@@ -1,3 +1,6 @@
+var speed;
+
+
 var Detection = {
   hello: function() {
     console.log("hello!!");

@@ -1,0 +1,34 @@
+<html>
+
+<head>
+  <style>
+    #mario {
+      z-index: 11;
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+    }
+
+    #target {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+    }
+  </style>
+  <script>
+    function fly() {
+      var target = document.getElementById('target');
+      var mario = document.getElementById('mario');
+      mario.style.left = target.offsetLeft - 120;
+      mario.style.top = target.offsetTop;
+    }
+  </script>
+</head>
+
+<body>
+
+  <br><br>
+
+  <img id=target src=http://www.cartoonclipart.com/images/castle.gif> <br>
+  <a href=# onclick="fly()">點我, 瑪莉就飛到目標去</a>
+  <div id=mario><img width=150 height=150 src=http://www.tdubel.com/emulaattorit/kuvat/nespelit/mario3.gif> </div> </body> </html>
